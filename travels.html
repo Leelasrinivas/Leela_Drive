@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>LuxeDrive | Self Drive Cars, Corporate & Wedding Car Rentals in Hyderabad</title>
+  <meta name="description" content="Book premium self drive cars, corporate cabs, wedding cars, outstation trips & event vehicles in Hyderabad. Luxury, affordable & reliable. WhatsApp: 9885787799" />
+  <meta name="keywords" content="self drive cars Hyderabad, car rental Hyderabad, corporate cab Hyderabad, wedding car rental Hyderabad, outstation car hire Hyderabad, luxury car rental Hyderabad, airport transfer Hyderabad, event car rental Hyderabad" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.luxedrive.in/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LuxeDrive | Premium Car Rentals in Hyderabad" />
+  <meta property="og:description" content="Self Drive, Corporate, Wedding & Event Car Rentals in Hyderabad. Book via WhatsApp instantly." />
+  <meta property="og:url" content="https://www.luxedrive.in/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "LuxeDrive Car Rentals",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800",
+    "url": "https://www.luxedrive.in",
+    "telephone": "+919885787799",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "addressCountry": "IN"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "priceRange": "₹₹",
+    "description": "Premium car rental in Hyderabad: self drive, corporate, wedding, event and outstation."
+  }
+  </script>
+
+  <!-- Prevent flash of wrong theme -->
+  <script>
+    (function() {
+      const saved = localStorage.getItem('luxedrive-theme');
+      const sys = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', saved || sys);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    /* ======================================================
+       THEME VARIABLES
+    ====================================================== */
+    :root {
+      /* Accent */
+      --accent: #B8902A;
+      --accent-light: #D4AA50;
+      --accent-lighter: #EDD080;
+      --accent-dark: #8A6B1A;
+      --accent-bg: rgba(184,144,42,0.10);
+      --accent-border: rgba(184,144,42,0.25);
+
+      /* Transitions */
+      --theme-speed: 0.35s;
+      --ease: cubic-bezier(0.4,0,0.2,1);
+
+      /* Shared */
+      --wa-green: #25D366;
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --radius-pill: 999px;
+      --shadow-accent: 0 8px 32px rgba(184,144,42,0.28);
+      --shadow-wa: 0 8px 32px rgba(37,211,102,0.30);
+    }
+
+    /* DARK THEME */
+    [data-theme="dark"] {
+      --bg-base:      #0D0D0D;
+      --bg-surface:   #161616;
+      --bg-elevated:  #1E1E1E;
+      --bg-hover:     #252525;
+      --bg-card:      #191919;
+
+      --text-primary:   #F2EFE8;
+      --text-secondary: #A8A49B;
+      --text-muted:     #6B6760;
+      --text-inverse:   #0D0D0D;
+
+      --border-subtle:  rgba(255,255,255,0.07);
+      --border-medium:  rgba(255,255,255,0.12);
+      --border-accent:  rgba(184,144,42,0.30);
+
+      --nav-bg:         rgba(13,13,13,0.92);
+      --ticker-bg:      #B8902A;
+      --ticker-text:    #0D0D0D;
+
+      --hero-overlay: linear-gradient(110deg, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.65) 55%, rgba(0,0,0,0.25) 100%);
+      --section-alt:  #111111;
+
+      --shadow-card: 0 4px 24px rgba(0,0,0,0.55);
+      --shadow-lg:   0 20px 60px rgba(0,0,0,0.70);
+    }
+
+    /* LIGHT THEME */
+    [data-theme="light"] {
+      --bg-base:      #FAFAF8;
+      --bg-surface:   #FFFFFF;
+      --bg-elevated:  #F4F2ED;
+      --bg-hover:     #EDEAE3;
+      --bg-card:      #FFFFFF;
+
+      --text-primary:   #1A1714;
+      --text-secondary: #5C5852;
+      --text-muted:     #9C9890;
+      --text-inverse:   #FFFFFF;
+
+      --border-subtle:  rgba(0,0,0,0.07);
+      --border-medium:  rgba(0,0,0,0.12);
+      --border-accent:  rgba(184,144,42,0.35);
+
+      --nav-bg:         rgba(250,250,248,0.94);
+      --ticker-bg:      #B8902A;
+      --ticker-text:    #FFFFFF;
+
+      --hero-overlay: linear-gradient(110deg, rgba(10,8,5,0.88) 0%, rgba(10,8,5,0.60) 55%, rgba(10,8,5,0.15) 100%);
+      --section-alt:  #F0EDE6;
+
+      --shadow-card: 0 4px 24px rgba(0,0,0,0.09);
+      --shadow-lg:   0 20px 60px rgba(0,0,0,0.14);
+    }
+
+    /* ======================================================
+       RESET & BASE
+    ====================================================== */
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+    html { scroll-behavior:smooth; font-size:16px; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-base);
+      color: var(--text-primary);
+      overflow-x: hidden;
+      line-height: 1.7;
+      transition: background var(--theme-speed) var(--ease), color var(--theme-speed) var(--ease);
+    }
+
+    ::selection { background: var(--accent); color: #fff; }
+
+    img { max-width:100%; display:block; object-fit:cover; }
+    a   { text-decoration:none; color:inherit; }
+    ul  { list-style:none; }
+    button { font-family:inherit; cursor:pointer; }
+
+    ::-webkit-scrollbar { width:5px; }
+    ::-webkit-scrollbar-track { background: var(--bg-base); }
+    ::-webkit-scrollbar-thumb { background: var(--accent); border-radius:3px; }
+
+    /* ======================================================
+       TYPOGRAPHY
+    ====================================================== */
+    .font-display { font-family:'Playfair Display',serif; }
+    .font-heading  { font-family:'Cormorant Garamond',serif; }
+
+    .section-eyebrow {
+      display:inline-flex; align-items:center; gap:10px;
+      font-size:0.70rem; font-weight:600; letter-spacing:4px;
+      text-transform:uppercase; color:var(--accent);
+      margin-bottom:14px;
+    }
+    .section-eyebrow::before {
+      content:''; display:block; width:28px; height:1.5px;
+      background:var(--accent); flex-shrink:0;
+    }
+
+    .section-title {
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(2rem,4.5vw,3.6rem);
+      font-weight:600; line-height:1.12;
+      color:var(--text-primary);
+    }
+
+    .section-title .accent { color:var(--accent); }
+
+    .section-body {
+      font-size:0.95rem; color:var(--text-secondary);
+      line-height:1.85; max-width:520px;
+    }
+
+    .gold-line {
+      width:48px; height:2px;
+      background:linear-gradient(90deg,var(--accent),transparent);
+      margin:20px 0;
+    }
+
+    /* ======================================================
+       LAYOUT
+    ====================================================== */
+    .container {
+      width:100%; max-width:1240px;
+      margin:0 auto; padding:0 24px;
+    }
+
+    .section-pad { padding:96px 0; }
+
+    /* ======================================================
+       BUTTONS
+    ====================================================== */
+    .btn {
+      display:inline-flex; align-items:center; justify-content:center;
+      gap:10px; font-size:0.82rem; font-weight:600;
+      letter-spacing:1.8px; text-transform:uppercase;
+      padding:15px 32px; border-radius:var(--radius-sm);
+      border:none; transition:all 0.3s var(--ease);
+      white-space:nowrap; position:relative; overflow:hidden;
+    }
+
+    .btn-gold {
+      background:linear-gradient(135deg,var(--accent-dark),var(--accent),var(--accent-light));
+      background-size:200% auto;
+      color:#fff;
+      box-shadow:var(--shadow-accent);
+    }
+    .btn-gold:hover {
+      background-position:right center;
+      transform:translateY(-2px);
+      box-shadow:0 12px 36px rgba(184,144,42,0.40);
+    }
+
+    .btn-ghost {
+      background:transparent;
+      color:var(--text-primary);
+      border:1.5px solid var(--border-medium);
+    }
+    .btn-ghost:hover {
+      border-color:var(--accent);
+      color:var(--accent);
+      transform:translateY(-2px);
+    }
+
+    .btn-wa {
+      background:var(--wa-green);
+      color:#fff;
+      box-shadow:var(--shadow-wa);
+    }
+    .btn-wa:hover { transform:translateY(-2px); box-shadow:0 12px 36px rgba(37,211,102,0.42); }
+
+    /* ======================================================
+       LOADER
+    ====================================================== */
+    #loader {
+      position:fixed; inset:0;
+      background:var(--bg-base);
+      display:flex; align-items:center; justify-content:center;
+      z-index:9999;
+      transition:opacity 0.5s ease, visibility 0.5s ease;
+    }
+    #loader.out { opacity:0; visibility:hidden; }
+
+    .loader-inner { text-align:center; }
+    .loader-logo {
+      font-family:'Playfair Display',serif;
+      font-size:2.2rem; color:var(--accent);
+      letter-spacing:10px; margin-bottom:22px;
+      animation:fadeUp 0.7s ease both;
+    }
+    .loader-track {
+      width:180px; height:2px; background:var(--border-subtle);
+      margin:0 auto; border-radius:2px; overflow:hidden;
+    }
+    .loader-fill {
+      height:100%;
+      background:linear-gradient(90deg,var(--accent-dark),var(--accent),var(--accent-lighter));
+      animation:fillBar 1.9s ease forwards;
+    }
+    @keyframes fillBar { from{width:0} to{width:100%} }
+    @keyframes fadeUp  { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:none} }
+
+    /* ======================================================
+       NAVBAR
+    ====================================================== */
+    #nav {
+      position:fixed; top:0; left:0; right:0; z-index:900;
+      padding:18px 0;
+      transition:padding 0.3s var(--ease), background 0.3s var(--ease),
+                 border-color 0.3s var(--ease), backdrop-filter 0.3s var(--ease);
+    }
+    #nav.stuck {
+      padding:11px 0;
+      background:var(--nav-bg);
+      backdrop-filter:blur(18px);
+      -webkit-backdrop-filter:blur(18px);
+      border-bottom:1px solid var(--border-accent);
+    }
+
+    .nav-wrap {
+      display:flex; align-items:center;
+      justify-content:space-between; gap:24px;
+    }
+
+    .nav-logo {
+      display:flex; flex-direction:column; line-height:1; flex-shrink:0;
+    }
+    .nav-logo-main {
+      font-family:'Playfair Display',serif;
+      font-size:1.55rem; font-weight:700;
+      color:var(--accent); letter-spacing:5px;
+    }
+    .nav-logo-sub {
+      font-size:0.58rem; letter-spacing:4px;
+      text-transform:uppercase; color:var(--text-muted);
+      margin-top:3px;
+    }
+
+    .nav-links {
+      display:flex; align-items:center; gap:32px; flex:1;
+      justify-content:center;
+    }
+    .nav-links a {
+      font-size:0.76rem; font-weight:500; letter-spacing:1.8px;
+      text-transform:uppercase; color:var(--text-secondary);
+      position:relative; transition:color 0.25s;
+    }
+    .nav-links a::after {
+      content:''; position:absolute; left:0; bottom:-4px;
+      width:0; height:1.5px; background:var(--accent);
+      transition:width 0.3s var(--ease);
+    }
+    .nav-links a:hover { color:var(--accent); }
+    .nav-links a:hover::after { width:100%; }
+
+    .nav-right {
+      display:flex; align-items:center; gap:12px; flex-shrink:0;
+    }
+
+    /* Theme toggle */
+    .theme-toggle {
+      width:40px; height:40px;
+      border-radius:50%; border:1.5px solid var(--border-medium);
+      background:var(--bg-elevated);
+      display:flex; align-items:center; justify-content:center;
+      font-size:1rem; color:var(--text-secondary);
+      transition:all 0.3s var(--ease);
+    }
+    .theme-toggle:hover {
+      border-color:var(--accent); color:var(--accent);
+      background:var(--accent-bg);
+    }
+
+    .nav-book {
+      display:flex; align-items:center; gap:8px;
+      background:linear-gradient(135deg,var(--accent-dark),var(--accent));
+      color:#fff; font-size:0.76rem; font-weight:700;
+      letter-spacing:1.5px; text-transform:uppercase;
+      padding:11px 22px; border-radius:var(--radius-sm);
+      transition:all 0.3s var(--ease);
+    }
+    .nav-book:hover { transform:translateY(-2px); box-shadow:var(--shadow-accent); }
+
+    /* Hamburger */
+    .hamburger {
+      display:none; flex-direction:column;
+      gap:5px; padding:4px; cursor:pointer;
+    }
+    .hamburger span {
+      display:block; width:24px; height:2px;
+      background:var(--accent); border-radius:2px;
+      transition:all 0.3s var(--ease);
+    }
+    .hamburger.open span:nth-child(1) { transform:rotate(45deg) translate(5px,5px); }
+    .hamburger.open span:nth-child(2) { opacity:0; transform:scaleX(0); }
+    .hamburger.open span:nth-child(3) { transform:rotate(-45deg) translate(5px,-5px); }
+
+    /* Mobile drawer */
+    .drawer-overlay {
+      display:none; position:fixed; inset:0;
+      background:rgba(0,0,0,0.55); z-index:899;
+      backdrop-filter:blur(4px);
+    }
+    .drawer-overlay.show { display:block; }
+
+    .drawer {
+      position:fixed; top:0; right:-100%; bottom:0;
+      width:min(300px,85vw);
+      background:var(--bg-surface);
+      border-left:1px solid var(--border-accent);
+      z-index:900;
+      padding:80px 28px 36px;
+      display:flex; flex-direction:column; gap:0;
+      transition:right 0.38s var(--ease);
+    }
+    .drawer.open { right:0; }
+
+    .drawer a {
+      display:block; padding:15px 0;
+      font-size:0.85rem; letter-spacing:2px;
+      text-transform:uppercase; color:var(--text-secondary);
+      border-bottom:1px solid var(--border-subtle);
+      transition:all 0.25s;
+    }
+    .drawer a:hover { color:var(--accent); padding-left:6px; }
+
+    .drawer-book {
+      margin-top:24px;
+      background:linear-gradient(135deg,var(--accent-dark),var(--accent)) !important;
+      color:#fff !important; text-align:center;
+      padding:14px !important; border-radius:var(--radius-sm);
+      border-bottom:none !important; font-weight:700 !important;
+    }
+
+    .drawer-theme {
+      margin-top:16px; display:flex; align-items:center;
+      gap:12px; padding:14px 0; color:var(--text-secondary);
+      font-size:0.8rem; letter-spacing:1.5px; text-transform:uppercase;
+      border-bottom:none !important; cursor:pointer;
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+    #hero {
+      position:relative;
+      min-height:100svh;
+      display:flex; align-items:center;
+      padding:130px 0 80px;
+      overflow:hidden;
+    }
+
+    .hero-bg {
+      position:absolute; inset:0;
+      background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=85');
+      background-size:cover; background-position:center 40%;
+      transform:scale(1.04);
+      transition:transform 7s ease;
+    }
+    .hero-bg.ready { transform:scale(1); }
+
+    .hero-overlay {
+      position:absolute; inset:0;
+      background:var(--hero-overlay);
+    }
+
+    .hero-inner {
+      position:relative; z-index:2;
+      display:grid;
+      grid-template-columns:1fr;
+      max-width:680px;
+      gap:0;
+    }
+
+    .hero-badge {
+      display:inline-flex; align-items:center; gap:8px;
+      background:rgba(184,144,42,0.12);
+      border:1px solid rgba(184,144,42,0.35);
+      color:var(--accent-light); font-size:0.7rem;
+      letter-spacing:3px; text-transform:uppercase;
+      padding:8px 18px; border-radius:var(--radius-pill);
+      margin-bottom:24px; width:fit-content;
+      animation:fadeUp 0.7s 0.2s both;
+    }
+
+    .hero-title {
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(3rem,7vw,5.8rem);
+      font-weight:700; line-height:1.06;
+      color:#fff; margin-bottom:22px;
+      animation:fadeUp 0.7s 0.4s both;
+    }
+    .hero-title em {
+      font-style:normal; color:var(--accent-light);
+    }
+
+    .hero-sub {
+      font-size:clamp(0.92rem,1.8vw,1.05rem);
+      color:rgba(255,255,255,0.68); line-height:1.85;
+      max-width:500px; margin-bottom:38px;
+      animation:fadeUp 0.7s 0.6s both;
+    }
+
+    .hero-actions {
+      display:flex; flex-wrap:wrap; gap:14px;
+      animation:fadeUp 0.7s 0.8s both;
+    }
+
+    /* Stats bar */
+    .hero-stats {
+      position:absolute; bottom:0; left:0; right:0; z-index:2;
+      animation:fadeUp 0.7s 1s both;
+    }
+    .hero-stats-bar {
+      background:rgba(13,13,13,0.82);
+      backdrop-filter:blur(16px);
+      -webkit-backdrop-filter:blur(16px);
+      border-top:1px solid var(--border-accent);
+    }
+    .hero-stats-inner {
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      max-width:1240px; margin:0 auto; padding:0 24px;
+    }
+    .stat-cell {
+      padding:22px 16px;
+      text-align:center;
+      border-right:1px solid rgba(184,144,42,0.10);
+    }
+    .stat-cell:last-child { border-right:none; }
+    .stat-val {
+      font-family:'Playfair Display',serif;
+      font-size:1.75rem; font-weight:700;
+      color:var(--accent-light); line-height:1;
+      display:block;
+    }
+    .stat-lbl {
+      font-size:0.68rem; letter-spacing:2px;
+      text-transform:uppercase; color:rgba(255,255,255,0.45);
+      display:block; margin-top:5px;
+    }
+
+    /* Scroll hint */
+    .scroll-cue {
+      position:absolute; bottom:90px; left:50%;
+      transform:translateX(-50%); z-index:2;
+      display:flex; flex-direction:column;
+      align-items:center; gap:6px;
+      animation:fadeUp 1.5s 1.2s both;
+    }
+    .scroll-mouse {
+      width:20px; height:34px;
+      border:2px solid rgba(184,144,42,0.45);
+      border-radius:10px; position:relative;
+    }
+    .scroll-mouse::before {
+      content:''; position:absolute;
+      top:6px; left:50%; transform:translateX(-50%);
+      width:3px; height:6px;
+      background:var(--accent-light);
+      border-radius:2px;
+      animation:scrollDot 1.6s ease infinite;
+    }
+    @keyframes scrollDot {
+      0%   { top:6px; opacity:1; }
+      100% { top:18px; opacity:0; }
+    }
+
+    /* ======================================================
+       TICKER
+    ====================================================== */
+    .ticker {
+      background:var(--ticker-bg);
+      overflow:hidden; padding:11px 0;
+    }
+    .ticker-belt {
+      display:flex; gap:0;
+      animation:belt 28s linear infinite;
+      white-space:nowrap;
+    }
+    .ticker-item {
+      display:inline-flex; align-items:center; gap:10px;
+      padding:0 32px;
+      font-size:0.72rem; font-weight:700;
+      letter-spacing:3px; text-transform:uppercase;
+      color:var(--ticker-text);
+    }
+    .ticker-dot { width:4px; height:4px; background:currentColor; border-radius:50%; opacity:0.45; }
+    @keyframes belt { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    /* ======================================================
+       SECTION HEADER (shared)
+    ====================================================== */
+    .sec-head { margin-bottom:60px; }
+    .sec-head.center { text-align:center; }
+    .sec-head.center .section-body { margin:0 auto; }
+    .sec-head.center .gold-line { margin:20px auto; }
+
+    /* ======================================================
+       SERVICES
+    ====================================================== */
+    #services { background:var(--bg-surface); }
+
+    .services-grid {
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:24px;
+    }
+
+    .svc-card {
+      background:var(--bg-card);
+      border:1px solid var(--border-subtle);
+      border-radius:var(--radius-md);
+      overflow:hidden;
+      transition:all 0.35s var(--ease);
+      display:flex; flex-direction:column;
+    }
+    .svc-card:hover {
+      border-color:var(--border-accent);
+      transform:translateY(-6px);
+      box-shadow:var(--shadow-card);
+    }
+
+    .svc-img {
+      width:100%; height:210px;
+      object-fit:cover; display:block;
+      transition:transform 0.6s var(--ease), filter 0.4s;
+      filter:brightness(0.88);
+    }
+    .svc-card:hover .svc-img { transform:scale(1.05); filter:brightness(1); }
+
+    .svc-body {
+      padding:28px 26px 26px;
+      display:flex; flex-direction:column; flex:1;
+    }
+
+    .svc-icon {
+      width:46px; height:46px;
+      background:var(--accent-bg);
+      border:1px solid var(--accent-border);
+      border-radius:10px;
+      display:flex; align-items:center; justify-content:center;
+      font-size:1.15rem; color:var(--accent);
+      margin-bottom:18px;
+      transition:all 0.3s;
+    }
+    .svc-card:hover .svc-icon { background:var(--accent); color:#fff; }
+
+    .svc-name {
+      font-family:'Cormorant Garamond',serif;
+      font-size:1.4rem; font-weight:600;
+      color:var(--text-primary); margin-bottom:10px;
+      transition:color 0.3s;
+    }
+    .svc-card:hover .svc-name { color:var(--accent); }
+
+    .svc-desc {
+      font-size:0.875rem; color:var(--text-secondary);
+      line-height:1.80; margin-bottom:20px; flex:1;
+    }
+
+    .svc-features {
+      display:flex; flex-direction:column; gap:8px; margin-bottom:22px;
+    }
+    .svc-feat {
+      display:flex; align-items:center; gap:9px;
+      font-size:0.80rem; color:var(--text-secondary);
+    }
+    .svc-feat i { color:var(--accent); font-size:0.72rem; flex-shrink:0; }
+
+    .svc-link {
+      display:inline-flex; align-items:center; gap:8px;
+      font-size:0.76rem; font-weight:600; letter-spacing:1.8px;
+      text-transform:uppercase; color:var(--accent);
+      padding-top:18px; border-top:1px solid var(--border-subtle);
+      transition:all 0.3s; width:fit-content;
+    }
+    .svc-link i { transition:transform 0.3s; }
+    .svc-link:hover { color:var(--accent-light); }
+    .svc-link:hover i { transform:translateX(5px); }
+
+    /* ======================================================
+       HOW IT WORKS
+    ====================================================== */
+    #how { background:var(--section-alt); }
+
+    .steps-grid {
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:32px; position:relative;
+    }
+    .steps-grid::before {
+      content:''; position:absolute;
+      top:35px; left:12.5%; right:12.5%;
+      height:1px;
+      background:linear-gradient(90deg,transparent,var(--accent),transparent);
+      pointer-events:none;
+    }
+
+    .step {
+      display:flex; flex-direction:column;
+      align-items:center; text-align:center;
+      position:relative; z-index:1;
+    }
+    .step-num {
+      width:70px; height:70px;
+      background:var(--bg-surface);
+      border:1.5px solid var(--border-accent);
+      border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      font-family:'Playfair Display',serif;
+      font-size:1.3rem; font-weight:700; color:var(--accent);
+      margin-bottom:22px;
+      transition:all 0.3s var(--ease);
+    }
+    .step:hover .step-num {
+      background:var(--accent); color:#fff;
+      box-shadow:var(--shadow-accent);
+    }
+    .step-title {
+      font-family:'Cormorant Garamond',serif;
+      font-size:1.2rem; font-weight:600;
+      color:var(--text-primary); margin-bottom:10px;
+    }
+    .step-desc {
+      font-size:0.855rem; color:var(--text-secondary);
+      line-height:1.80;
+    }
+
+    /* ======================================================
+       FLEET
+    ====================================================== */
+    #fleet { background:var(--bg-surface); }
+
+    .fleet-top {
+      display:flex; align-items:flex-end;
+      justify-content:space-between; margin-bottom:48px;
+      flex-wrap:wrap; gap:20px;
+    }
+
+    .tabs {
+      display:flex; gap:4px;
+      background:var(--bg-elevated);
+      padding:4px; border-radius:var(--radius-pill);
+    }
+    .tab-btn {
+      padding:9px 22px; border-radius:var(--radius-pill);
+      font-size:0.75rem; font-weight:600;
+      letter-spacing:1.5px; text-transform:uppercase;
+      color:var(--text-muted); background:transparent;
+      border:none; transition:all 0.3s;
+    }
+    .tab-btn.on, .tab-btn:hover {
+      background:var(--accent); color:#fff;
+    }
+
+    .fleet-grid {
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:24px;
+    }
+
+    .fleet-card {
+      background:var(--bg-card);
+      border:1px solid var(--border-subtle);
+      border-radius:var(--radius-md);
+      overflow:hidden;
+      transition:all 0.35s var(--ease);
+    }
+    .fleet-card:hover {
+      border-color:var(--border-accent);
+      transform:translateY(-6px);
+      box-shadow:var(--shadow-card);
+    }
+
+    .fleet-img-box {
+      position:relative; height:195px; overflow:hidden;
+    }
+    .fleet-img {
+      width:100%; height:100%;
+      transition:transform 0.6s var(--ease);
+      filter:brightness(0.9);
+    }
+    .fleet-card:hover .fleet-img { transform:scale(1.07); filter:brightness(1); }
+
+    .fleet-tag {
+      position:absolute; top:14px; left:14px;
+      background:rgba(13,13,13,0.75); color:var(--accent-light);
+      font-size:0.68rem; font-weight:700; letter-spacing:2px;
+      text-transform:uppercase; padding:5px 13px;
+      border-radius:var(--radius-pill);
+      border:1px solid rgba(184,144,42,0.30);
+      backdrop-filter:blur(8px);
+    }
+
+    .fleet-hover-overlay {
+      position:absolute; inset:0;
+      background:rgba(0,0,0,0.55);
+      display:flex; align-items:center; justify-content:center;
+      opacity:0; transition:opacity 0.3s;
+    }
+    .fleet-card:hover .fleet-hover-overlay { opacity:1; }
+    .fleet-wa-btn {
+      display:inline-flex; align-items:center; gap:8px;
+      background:var(--wa-green); color:#fff;
+      font-size:0.80rem; font-weight:700; letter-spacing:1px;
+      padding:11px 26px; border-radius:var(--radius-pill);
+      transition:transform 0.25s;
+    }
+    .fleet-wa-btn:hover { transform:scale(1.06); }
+
+    .fleet-info { padding:22px 22px 20px; }
+    .fleet-name {
+      font-family:'Cormorant Garamond',serif;
+      font-size:1.25rem; font-weight:600;
+      color:var(--text-primary); margin-bottom:10px;
+    }
+    .fleet-specs {
+      display:flex; flex-wrap:wrap; gap:14px; margin-bottom:16px;
+    }
+    .fleet-spec {
+      display:flex; align-items:center; gap:6px;
+      font-size:0.77rem; color:var(--text-secondary);
+    }
+    .fleet-spec i { color:var(--accent); font-size:0.72rem; }
+
+    .fleet-footer {
+      display:flex; align-items:center; justify-content:space-between;
+      padding-top:14px; border-top:1px solid var(--border-subtle);
+    }
+    .fleet-price {
+      font-family:'Playfair Display',serif;
+      font-size:1.35rem; color:var(--accent); font-weight:600;
+    }
+    .fleet-price small {
+      font-family:'Inter',sans-serif;
+      font-size:0.72rem; color:var(--text-muted); font-weight:400;
+    }
+    .fleet-mini-btn {
+      display:inline-flex; align-items:center; gap:6px;
+      font-size:0.74rem; font-weight:600; letter-spacing:1.5px;
+      text-transform:uppercase; color:var(--accent);
+      transition:all 0.25s;
+    }
+    .fleet-mini-btn i { transition:transform 0.25s; }
+    .fleet-mini-btn:hover { color:var(--accent-light); }
+    .fleet-mini-btn:hover i { transform:translateX(4px); }
+
+    /* ======================================================
+       WHY US
+    ====================================================== */
+    #why { background:var(--section-alt); }
+
+    .why-grid {
+      display:grid; grid-template-columns:1fr 1fr;
+      gap:72px; align-items:center;
+    }
+
+    .why-img-block {
+      position:relative;
+    }
+    .why-main-img {
+      width:100%; height:440px;
+      border-radius:var(--radius-lg);
+      box-shadow:var(--shadow-lg);
+    }
+    .why-sec-img {
+      position:absolute;
+      bottom:-36px; right:-28px;
+      width:52%; height:240px;
+      border-radius:var(--radius-md);
+      border:4px solid var(--bg-base);
+      box-shadow:var(--shadow-lg);
+    }
+    .why-badge {
+      position:absolute; top:50%; left:-24px;
+      transform:translateY(-50%);
+      background:var(--accent);
+      color:#fff; width:90px; height:90px;
+      border-radius:50%;
+      display:flex; flex-direction:column;
+      align-items:center; justify-content:center;
+      box-shadow:var(--shadow-accent);
+      animation:floatY 3s ease infinite;
+      z-index:2;
+    }
+    .why-badge-num {
+      font-family:'Playfair Display',serif;
+      font-size:1.65rem; font-weight:700; line-height:1;
+    }
+    .why-badge-lbl {
+      font-size:0.52rem; letter-spacing:1px;
+      text-transform:uppercase; text-align:center;
+      line-height:1.3; margin-top:2px;
+    }
+    @keyframes floatY {
+      0%,100%{transform:translateY(-50%)} 50%{transform:translateY(calc(-50% - 10px))}
+    }
+
+    .why-features {
+      display:grid; grid-template-columns:1fr 1fr;
+      gap:16px; margin-top:36px;
+    }
+    .why-feat {
+      display:flex; align-items:flex-start; gap:14px;
+      padding:18px; background:var(--bg-surface);
+      border:1px solid var(--border-subtle);
+      border-radius:var(--radius-md);
+      transition:all 0.3s;
+    }
+    .why-feat:hover { border-color:var(--border-accent); }
+    .why-feat-icon {
+      width:38px; height:38px; min-width:38px;
+      background:var(--accent-bg); border-radius:8px;
+      display:flex; align-items:center; justify-content:center;
+      color:var(--accent); font-size:0.95rem;
+    }
+    .why-feat-title {
+      font-size:0.875rem; font-weight:600;
+      color:var(--text-primary); margin-bottom:3px;
+    }
+    .why-feat-desc { font-size:0.80rem; color:var(--text-secondary); line-height:1.65; }
+
+    /* ======================================================
+       TESTIMONIALS
+    ====================================================== */
+    #reviews { background:var(--bg-surface); }
+
+    .reviews-grid {
+      display:grid; grid-template-columns:repeat(3,1fr);
+      gap:24px;
+    }
+
+    .review-card {
+      background:var(--bg-card);
+      border:1px solid var(--border-subtle);
+      border-radius:var(--radius-md);
+      padding:32px 28px;
+      position:relative; overflow:hidden;
+      transition:all 0.35s var(--ease);
+      display:flex; flex-direction:column;
+    }
+    .review-card:hover {
+      border-color:var(--border-accent);
+      transform:translateY(-5px);
+      box-shadow:var(--shadow-card);
+    }
+    .review-quote {
+      font-family:'Playfair Display',serif;
+      font-size:4rem; line-height:1; color:var(--accent);
+      opacity:0.12; position:absolute; top:14px; right:20px;
+      pointer-events:none;
+    }
+    .review-stars { display:flex; gap:3px; margin-bottom:16px; }
+    .review-stars i { color:var(--accent); font-size:0.82rem; }
+    .review-text {
+      font-size:0.885rem; color:var(--text-secondary);
+      line-height:1.85; font-style:italic; margin-bottom:24px; flex:1;
+    }
+    .review-author { display:flex; align-items:center; gap:13px; }
+    .review-avatar {
+      width:44px; height:44px; border-radius:50%;
+      border:2px solid var(--border-accent); flex-shrink:0;
+    }
+    .review-name { font-size:0.875rem; font-weight:600; color:var(--text-primary); }
+    .review-role { font-size:0.76rem; color:var(--text-muted); }
+
+    /* ======================================================
+       DESTINATIONS
+    ====================================================== */
+    #areas { background:var(--section-alt); }
+
+    .areas-grid {
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:16px;
+    }
+    .area-card {
+      background:var(--bg-surface);
+      border:1px solid var(--border-subtle);
+      border-radius:var(--radius-md);
+      padding:24px 18px; text-align:center;
+      cursor:pointer; transition:all 0.3s;
+    }
+    .area-card:hover {
+      border-color:var(--border-accent);
+      transform:translateY(-4px);
+      box-shadow:var(--shadow-card);
+    }
+    .area-emoji { font-size:1.9rem; margin-bottom:10px; }
+    .area-name {
+      font-family:'Cormorant Garamond',serif;
+      font-size:1.05rem; font-weight:600;
+      color:var(--text-primary); margin-bottom:4px;
+    }
+    .area-km { font-size:0.74rem; color:var(--accent); letter-spacing:1px; }
+
+    /* ======================================================
+       CTA BAND
+    ====================================================== */
+    #cta { background:var(--bg-base); position:relative; overflow:hidden; }
+    .cta-bg-img {
+      position:absolute; inset:0;
+      background-image:url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1920&q=70');
+      background-size:cover; background-position:center;
+      opacity:0.12;
+    }
+    .cta-inner {
+      position:relative; z-index:1;
+      text-align:center; max-width:700px;
+      margin:0 auto;
+    }
+    .cta-title {
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(2rem,5vw,3.8rem);
+      font-weight:600; color:var(--text-primary);
+      margin-bottom:16px;
+    }
+    .cta-sub {
+      font-size:0.95rem; color:var(--text-secondary);
+      line-height:1.85; margin-bottom:44px;
+    }
+    .cta-actions {
+      display:flex; justify-content:center;
+      flex-wrap:wrap; gap:14px; margin-bottom:36px;
+    }
+    .cta-phone-block { text-align:center; }
+    .cta-phone-lbl {
+      font-size:0.68rem; letter-spacing:3px;
+      text-transform:uppercase; color:var(--text-muted);
+      display:block; margin-bottom:6px;
+    }
+    .cta-phone-num {
+      font-family:'Playfair Display',serif;
+      font-size:1.4rem; color:var(--accent); letter-spacing:3px;
+    }
+
+    /* ======================================================
+       FAQ
+    ====================================================== */
+    #faq { background:var(--bg-surface); }
+
+    .faq-grid {
+      display:grid; grid-template-columns:1fr 1fr;
+      gap:0 56px;
+    }
+    .faq-item { border-bottom:1px solid var(--border-subtle); }
+    .faq-q {
+      display:flex; align-items:center; justify-content:space-between;
+      gap:16px; padding:22px 0; cursor:pointer;
+      font-size:0.92rem; font-weight:500;
+      color:var(--text-primary); transition:color 0.25s;
+    }
+    .faq-q:hover { color:var(--accent); }
+    .faq-icon {
+      width:28px; height:28px; min-width:28px;
+      background:var(--accent-bg);
+      border:1px solid var(--accent-border);
+      border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      color:var(--accent); font-size:0.72rem;
+      transition:all 0.3s;
+    }
+    .faq-item.active .faq-icon {
+      background:var(--accent); color:#fff;
+      transform:rotate(45deg);
+    }
+    .faq-a {
+      max-height:0; overflow:hidden;
+      transition:max-height 0.4s var(--ease), padding 0.3s;
+    }
+    .faq-item.active .faq-a { max-height:180px; padding-bottom:18px; }
+    .faq-a p { font-size:0.86rem; color:var(--text-secondary); line-height:1.85; }
+
+    /* ======================================================
+       FOOTER
+    ====================================================== */
+    footer {
+      background:var(--bg-surface);
+      border-top:1px solid var(--border-subtle);
+    }
+    .footer-grid {
+      padding:72px 0 56px;
+      display:grid;
+      grid-template-columns:1.6fr 1fr 1fr 1.1fr;
+      gap:44px;
+    }
+
+    .ft-brand { display:flex; flex-direction:column; }
+    .ft-logo-name {
+      font-family:'Playfair Display',serif;
+      font-size:1.75rem; color:var(--accent);
+      letter-spacing:5px; line-height:1;
+    }
+    .ft-logo-sub {
+      font-size:0.58rem; letter-spacing:4px;
+      text-transform:uppercase; color:var(--text-muted);
+      margin:4px 0 18px;
+    }
+    .ft-desc {
+      font-size:0.875rem; color:var(--text-secondary);
+      line-height:1.85; margin-bottom:24px;
+    }
+    .ft-socials { display:flex; gap:10px; }
+    .ft-social {
+      width:36px; height:36px; border-radius:50%;
+      background:var(--accent-bg);
+      border:1px solid var(--accent-border);
+      display:flex; align-items:center; justify-content:center;
+      font-size:0.82rem; color:var(--text-secondary);
+      transition:all 0.3s;
+    }
+    .ft-social:hover { background:var(--accent); color:#fff; border-color:var(--accent); }
+
+    .ft-col-title {
+      font-family:'Cormorant Garamond',serif;
+      font-size:1.05rem; font-weight:600;
+      color:var(--text-primary); margin-bottom:20px;
+      padding-bottom:12px;
+      border-bottom:1px solid var(--border-subtle);
+    }
+    .ft-links { display:flex; flex-direction:column; gap:11px; }
+    .ft-links a {
+      font-size:0.855rem; color:var(--text-secondary);
+      transition:all 0.25s; display:flex; align-items:center; gap:8px;
+    }
+    .ft-links a::before {
+      content:'›'; color:var(--accent); font-size:1rem;
+    }
+    .ft-links a:hover { color:var(--accent); padding-left:4px; }
+
+    .ft-contact-item {
+      display:flex; align-items:flex-start; gap:12px; margin-bottom:14px;
+    }
+    .ft-ci-icon {
+      width:32px; height:32px; min-width:32px;
+      background:var(--accent-bg); border-radius:8px;
+      display:flex; align-items:center; justify-content:center;
+      color:var(--accent); font-size:0.82rem;
+    }
+    .ft-ci-text { font-size:0.85rem; color:var(--text-secondary); line-height:1.6; }
+    .ft-ci-text strong { display:block; color:var(--text-primary); font-size:0.80rem; margin-bottom:2px; }
+
+    .footer-bottom {
+      border-top:1px solid var(--border-subtle);
+      padding:22px 0;
+      display:flex; align-items:center;
+      justify-content:space-between; flex-wrap:wrap; gap:12px;
+    }
+    .ft-copy { font-size:0.795rem; color:var(--text-muted); }
+    .ft-copy a { color:var(--accent); }
+    .ft-legal { display:flex; gap:22px; }
+    .ft-legal a { font-size:0.77rem; color:var(--text-muted); transition:color 0.25s; }
+    .ft-legal a:hover { color:var(--accent); }
+
+    /* ======================================================
+       FLOATING BUTTONS
+    ====================================================== */
+    .float-wa {
+      position:fixed; bottom:28px; right:28px;
+      z-index:800; display:flex; flex-direction:column;
+      align-items:flex-end; gap:8px;
+    }
+    .float-wa-tip {
+      background:var(--bg-elevated);
+      border:1px solid var(--border-accent);
+      color:var(--text-primary);
+      font-size:0.78rem; padding:9px 15px;
+      border-radius:8px; white-space:nowrap;
+      opacity:0; transform:translateX(8px);
+      transition:all 0.3s; pointer-events:none;
+    }
+    .float-wa:hover .float-wa-tip { opacity:1; transform:none; }
+    .float-wa-btn {
+      width:56px; height:56px; border-radius:50%;
+      background:var(--wa-green); color:#fff;
+      font-size:1.6rem;
+      display:flex; align-items:center; justify-content:center;
+      box-shadow:var(--shadow-wa);
+      animation:floatBtn 3s ease infinite;
+      position:relative;
+    }
+    .float-wa-btn::before {
+      content:''; position:absolute; inset:0;
+      border-radius:50%; background:rgba(37,211,102,0.4);
+      animation:ripple 2s ease infinite;
+    }
+    @keyframes floatBtn { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
+    @keyframes ripple   { 0%{transform:scale(1);opacity:1} 100%{transform:scale(1.8);opacity:0} }
+
+    .back-top {
+      position:fixed; bottom:28px; left:28px; z-index:800;
+      width:42px; height:42px; border-radius:50%;
+      background:var(--bg-elevated);
+      border:1.5px solid var(--border-accent);
+      color:var(--accent); font-size:0.88rem;
+      display:flex; align-items:center; justify-content:center;
+      cursor:pointer; transition:all 0.3s;
+      opacity:0; pointer-events:none;
+    }
+    .back-top.show { opacity:1; pointer-events:all; }
+    .back-top:hover { background:var(--accent); color:#fff; }
+
+    /* ======================================================
+       SCROLL ANIMATION
+    ====================================================== */
+    .anim {
+      opacity:0; transform:translateY(36px);
+      transition:opacity 0.65s var(--ease), transform 0.65s var(--ease);
+    }
+    .anim.in { opacity:1; transform:none; }
+
+    /* ======================================================
+       RESPONSIVE — TABLET (≤1100px)
+    ====================================================== */
+    @media(max-width:1100px){
+      .services-grid  { grid-template-columns:repeat(2,1fr); }
+      .fleet-grid     { grid-template-columns:repeat(2,1fr); }
+      .footer-grid    { grid-template-columns:1fr 1fr; gap:36px; }
+      .nav-links      { display:none; }
+      .hamburger      { display:flex; }
+      .steps-grid     { grid-template-columns:repeat(2,1fr); }
+      .steps-grid::before { display:none; }
+      .why-grid       { grid-template-columns:1fr; gap:48px; }
+      .why-img-block  { max-width:560px; }
+      .why-sec-img    { right:-16px; bottom:-24px; }
+      .areas-grid     { grid-template-columns:repeat(3,1fr); }
+    }
+
+    /* ======================================================
+       RESPONSIVE — MOBILE (≤768px)
+    ====================================================== */
+    @media(max-width:768px){
+      .section-pad    { padding:68px 0; }
+      .container      { padding:0 18px; }
+      .services-grid  { grid-template-columns:1fr; }
+      .fleet-grid     { grid-template-columns:1fr; }
+      .reviews-grid   { grid-template-columns:1fr; }
+      .faq-grid       { grid-template-columns:1fr; gap:0; }
+      .areas-grid     { grid-template-columns:repeat(2,1fr); }
+      .footer-grid    { grid-template-columns:1fr; gap:30px; padding:52px 0 40px; }
+      .footer-bottom  { flex-direction:column; text-align:center; }
+      .ft-legal       { justify-content:center; }
+
+      .hero-stats-inner { grid-template-columns:repeat(2,1fr); }
+      .stat-cell:nth-child(2) { border-right:none; }
+      .stat-cell:nth-child(3) { border-right:1px solid rgba(184,144,42,0.10); border-top:1px solid rgba(184,144,42,0.10); }
+      .stat-cell:nth-child(4) { border-right:none; border-top:1px solid rgba(184,144,42,0.10); }
+
+      .why-img-block  { max-width:100%; }
+      .why-main-img   { height:280px; }
+      .why-sec-img    { width:55%; height:170px; right:-10px; bottom:-20px; }
+      .why-badge      { left:-10px; width:76px; height:76px; }
+      .why-badge-num  { font-size:1.35rem; }
+      .why-features   { grid-template-columns:1fr; }
+      .fleet-top      { flex-direction:column; align-items:flex-start; }
+      .tabs           { flex-wrap:wrap; }
+    }
+
+    /* ======================================================
+       RESPONSIVE — SMALL MOBILE (≤480px)
+    ====================================================== */
+    @media(max-width:480px){
+      .hero-title     { font-size:2.6rem; }
+      .hero-actions   { flex-direction:column; }
+      .hero-actions .btn { width:100%; }
+      .cta-actions    { flex-direction:column; align-items:center; }
+      .cta-actions .btn { width:100%; max-width:320px; }
+      .nav-book       { display:none; }
+      .steps-grid     { grid-template-columns:1fr; }
+      .areas-grid     { grid-template-columns:repeat(2,1fr); }
+      .float-wa-btn   { width:50px; height:50px; font-size:1.4rem; }
+      .back-top       { width:38px; height:38px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- =========================================================
+     LOADER
+========================================================= -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">LUXEDRIVE</div>
+    <div class="loader-track"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- =========================================================
+     MOBILE DRAWER
+========================================================= -->
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<nav class="drawer" id="drawer">
+  <a href="#services"     onclick="closeDrawer()">Services</a>
+  <a href="#fleet"        onclick="closeDrawer()">Our Fleet</a>
+  <a href="#how"          onclick="closeDrawer()">How It Works</a>
+  <a href="#areas"        onclick="closeDrawer()">Destinations</a>
+  <a href="#reviews"      onclick="closeDrawer()">Reviews</a>
+  <a href="#faq"          onclick="closeDrawer()">FAQ</a>
+  <button class="drawer-theme" onclick="toggleTheme()">
+    <i class="fas fa-circle-half-stroke"></i>
+    <span id="drawerThemeLbl">Switch Theme</span>
+  </button>
+  <a href="https://wa.me/919885787799?text=Hi%20LuxeDrive!%20I%20want%20to%20book%20a%20car." target="_blank" class="drawer-book">
+    <i class="fab fa-whatsapp"></i> Book on WhatsApp
+  </a>
+</nav>
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+<header id="nav">
+  <div class="container">
+    <div class="nav-wrap">
+      <a href="#hero" class="nav-logo">
+        <span class="nav-logo-main">LUXEDRIVE</span>
+        <span class="nav-logo-sub">Premium Car Rentals · Hyderabad</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#fleet">Fleet</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#areas">Destinations</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn" title="Toggle theme">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="https://wa.me/919885787799?text=Hi%20LuxeDrive!%20I%20want%20to%20book%20a%20car." target="_blank" class="nav-book">
+          <i class="fab fa-whatsapp"></i> Book Now
+        </a>
+        <div class="hamburger" id="ham" onclick="toggleDrawer()">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+<section id="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <i class="fas fa-crown"></i> Premium Car Rentals — Hyderabad
+      </div>
+      <h1 class="hero-title">
+        Ride in <em>Luxury,</em><br>Travel on<br>Your Terms
+      </h1>
+      <p class="hero-sub">
+        Hyderabad's most trusted car rental — self-drive to chauffeur-driven, corporate fleets to grand wedding convoys. Every journey, elevated.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/919885787799?text=Hi%20LuxeDrive!%20I%20want%20to%20book%20a%20car." target="_blank" class="btn btn-wa">
+          <i class="fab fa-whatsapp"></i> Book via WhatsApp
+        </a>
+        <a href="#services" class="btn btn-ghost">
+          Explore Services <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="hero-stats-bar">
+      <div class="hero-stats-inner">
+        <div class="stat-cell">
+          <span class="stat-val">500+</span>
+          <span class="stat-lbl">Happy Clients</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-val">50+</span>
+          <span class="stat-lbl">Premium Cars</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-val">24/7</span>
+          <span class="stat-lbl">Support</span>
+        </div>
+        <div class="stat-cell">
+          <span class="stat-val">5 ★</span>
+          <span class="stat-lbl">Rated Service</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <div class="scroll-mouse"></div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TICKER
+========================================================= -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-belt">
+    <span class="ticker-item"><span class="ticker-dot"></span>Self Drive Cars</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Corporate Travel</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Wedding Convoys</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Outstation Trips</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Airport Transfers</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Event Vehicles</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Luxury SUVs</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Premium Sedans</span>
+    <!-- duplicate for seamless loop -->
+    <span class="ticker-item"><span class="ticker-dot"></span>Self Drive Cars</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Corporate Travel</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Wedding Convoys</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Outstation Trips</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Airport Transfers</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Event Vehicles</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Luxury SUVs</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Premium Sedans</span>
+  </div>
+</div>
+
+<!-- =========================================================
+     SERVICES
+========================================================= -->
+<section id="services" class="section-pad">
+  <div class="container">
+    <div class="sec-head center anim">
+      <span class="section-eyebrow">What We Offer</span>
+      <h2 class="section-title">Every Journey, A <span class="accent">Class Apart</span></h2>
+      <div class="gold-line"></div>
+      <p class="section-body">From weekend escapes to boardroom commutes and fairy-tale weddings — we have the perfect vehicle for every occasion.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="svc-card anim">
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=700&q=80" alt="Self Drive Cars Hyderabad" class="svc-img" loading="lazy" />
+        <div class="svc-body">
+          <div class="svc-icon"><i class="fas fa-car-side"></i></div>
+          <h3 class="svc-name">Self Drive Cars</h3>
+          <p class="svc-desc">Drive on your own schedule with our premium self-drive fleet. Hourly, daily and weekly packages with full insurance coverage.</p>
+          <ul class="svc-features">
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Zero security deposit options</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>GPS-enabled vehicles</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Fully sanitized &amp; insured</li>
+          </ul>
+          <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20to%20book%20a%20Self%20Drive%20car." target="_blank" class="svc-link">
+            Book Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="svc-card anim">
+        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=700&q=80" alt="Corporate Car Rental Hyderabad" class="svc-img" loading="lazy" />
+        <div class="svc-body">
+          <div class="svc-icon"><i class="fas fa-briefcase"></i></div>
+          <h3 class="svc-name">Corporate Travel</h3>
+          <p class="svc-desc">Reliable, punctual and professional chauffeur-driven cars for executives, corporate events, airport pickups and team outings.</p>
+          <ul class="svc-features">
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Professional chauffeurs</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Monthly billing available</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>On-time guarantee</li>
+          </ul>
+          <a href="https://wa.me/919885787799?text=Hi!%20I%20need%20Corporate%20car%20rental." target="_blank" class="svc-link">
+            Book Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="svc-card anim">
+        <img src="https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?auto=format&fit=crop&w=700&q=80" alt="Wedding Car Rental Hyderabad" class="svc-img" loading="lazy" />
+        <div class="svc-body">
+          <div class="svc-icon"><i class="fas fa-heart"></i></div>
+          <h3 class="svc-name">Weddings &amp; Events</h3>
+          <p class="svc-desc">Make your special day unforgettable with our luxury wedding car rentals — decorated vehicles, convoy packages and white-glove service.</p>
+          <ul class="svc-features">
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Floral decoration available</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Convoy packages</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Premium sedans &amp; SUVs</li>
+          </ul>
+          <a href="https://wa.me/919885787799?text=Hi!%20I%20need%20a%20wedding%20car." target="_blank" class="svc-link">
+            Book Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="svc-card anim">
+        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=700&q=80" alt="Outstation Car Rental Hyderabad" class="svc-img" loading="lazy" />
+        <div class="svc-body">
+          <div class="svc-icon"><i class="fas fa-road"></i></div>
+          <h3 class="svc-name">Outstation Trips</h3>
+          <p class="svc-desc">Comfortable and safe outstation rentals across Telangana, Andhra Pradesh and beyond. Well-maintained vehicles and experienced drivers.</p>
+          <ul class="svc-features">
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>One-way &amp; round trips</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Toll &amp; tax included</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Night halts arranged</li>
+          </ul>
+          <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20an%20outstation%20trip." target="_blank" class="svc-link">
+            Book Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="svc-card anim">
+        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=700&q=80" alt="Airport Transfer Hyderabad" class="svc-img" loading="lazy" />
+        <div class="svc-body">
+          <div class="svc-icon"><i class="fas fa-plane-arrival"></i></div>
+          <h3 class="svc-name">Airport Transfers</h3>
+          <p class="svc-desc">Stress-free airport pickups and drops at Rajiv Gandhi International Airport. Live flight tracking ensures we're always on time.</p>
+          <ul class="svc-features">
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Live flight tracking</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Meet &amp; greet service</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Fixed transparent pricing</li>
+          </ul>
+          <a href="https://wa.me/919885787799?text=Hi!%20I%20need%20an%20airport%20transfer." target="_blank" class="svc-link">
+            Book Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="svc-card anim">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=700&q=80" alt="Tour packages Hyderabad car rental" class="svc-img" loading="lazy" />
+        <div class="svc-body">
+          <div class="svc-icon"><i class="fas fa-map-marked-alt"></i></div>
+          <h3 class="svc-name">Tour Packages</h3>
+          <p class="svc-desc">Curated day trips and weekend packages — Srisailam, Nagarjuna Sagar, Warangal, Tirupati and beyond. Customized for your group.</p>
+          <ul class="svc-features">
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Custom itineraries</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Group booking discounts</li>
+            <li class="svc-feat"><i class="fas fa-check-circle"></i>Knowledgeable drivers</li>
+          </ul>
+          <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20to%20book%20a%20tour%20package." target="_blank" class="svc-link">
+            Book Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     HOW IT WORKS
+========================================================= -->
+<section id="how" class="section-pad">
+  <div class="container">
+    <div class="sec-head center anim">
+      <span class="section-eyebrow">Simple &amp; Fast</span>
+      <h2 class="section-title">Book in <span class="accent">4 Easy Steps</span></h2>
+      <div class="gold-line"></div>
+      <p class="section-body">No app downloads. Just one WhatsApp message and your car is on its way.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step anim">
+        <div class="step-num">01</div>
+        <h3 class="step-title">Choose Your Ride</h3>
+        <p class="step-desc">Browse our fleet of sedans, SUVs, hatchbacks and luxury cars. Pick the perfect vehicle for your trip.</p>
+      </div>
+      <div class="step anim">
+        <div class="step-num">02</div>
+        <h3 class="step-title">WhatsApp Us</h3>
+        <p class="step-desc">Send us a message at <strong style="color:var(--accent)">+91 98857 87799</strong> with your trip details and preferred vehicle.</p>
+      </div>
+      <div class="step anim">
+        <div class="step-num">03</div>
+        <h3 class="step-title">Get Confirmation</h3>
+        <p class="step-desc">Receive instant booking confirmation with driver details, vehicle info and pickup time — within minutes.</p>
+      </div>
+      <div class="step anim">
+        <div class="step-num">04</div>
+        <h3 class="step-title">Enjoy the Drive</h3>
+        <p class="step-desc">Sit back and enjoy a premium, comfortable and safe journey anywhere in Hyderabad and beyond.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FLEET
+========================================================= -->
+<section id="fleet" class="section-pad">
+  <div class="container">
+    <div class="fleet-top anim">
+      <div>
+        <span class="section-eyebrow">Our Fleet</span>
+        <h2 class="section-title">Handpicked <span class="accent">Premium Vehicles</span></h2>
+      </div>
+      <div class="tabs">
+        <button class="tab-btn on" onclick="filterFleet('all',this)">All</button>
+        <button class="tab-btn" onclick="filterFleet('sedan',this)">Sedans</button>
+        <button class="tab-btn" onclick="filterFleet('suv',this)">SUVs</button>
+        <button class="tab-btn" onclick="filterFleet('luxury',this)">Luxury</button>
+      </div>
+    </div>
+
+    <div class="fleet-grid" id="fleetGrid">
+
+      <div class="fleet-card anim" data-type="sedan">
+        <div class="fleet-img-box">
+          <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=700&q=80" alt="Honda City Self Drive Hyderabad" class="fleet-img" loading="lazy" />
+          <span class="fleet-tag">Self Drive</span>
+          <div class="fleet-hover-overlay">
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20to%20book%20Honda%20City." target="_blank" class="fleet-wa-btn"><i class="fab fa-whatsapp"></i> Book Now</a>
+          </div>
+        </div>
+        <div class="fleet-info">
+          <div class="fleet-name">Honda City</div>
+          <div class="fleet-specs">
+            <span class="fleet-spec"><i class="fas fa-user"></i> 5 Seats</span>
+            <span class="fleet-spec"><i class="fas fa-gas-pump"></i> Petrol</span>
+            <span class="fleet-spec"><i class="fas fa-cog"></i> Automatic</span>
+          </div>
+          <div class="fleet-footer">
+            <div>
+              <span class="fleet-price">₹999 <small>/ day onwards</small></span>
+            </div>
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20to%20book%20Honda%20City." target="_blank" class="fleet-mini-btn">Book <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="fleet-card anim" data-type="suv">
+        <div class="fleet-img-box">
+          <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=700&q=80" alt="Toyota Innova Crysta Hyderabad" class="fleet-img" loading="lazy" />
+          <span class="fleet-tag">Most Booked</span>
+          <div class="fleet-hover-overlay">
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Innova%20Crysta." target="_blank" class="fleet-wa-btn"><i class="fab fa-whatsapp"></i> Book Now</a>
+          </div>
+        </div>
+        <div class="fleet-info">
+          <div class="fleet-name">Toyota Innova Crysta</div>
+          <div class="fleet-specs">
+            <span class="fleet-spec"><i class="fas fa-user"></i> 7 Seats</span>
+            <span class="fleet-spec"><i class="fas fa-gas-pump"></i> Diesel</span>
+            <span class="fleet-spec"><i class="fas fa-cog"></i> Manual</span>
+          </div>
+          <div class="fleet-footer">
+            <div>
+              <span class="fleet-price">₹2,500 <small>/ day onwards</small></span>
+            </div>
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Innova%20Crysta." target="_blank" class="fleet-mini-btn">Book <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="fleet-card anim" data-type="luxury">
+        <div class="fleet-img-box">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80" alt="Mercedes Benz Rental Hyderabad" class="fleet-img" loading="lazy" />
+          <span class="fleet-tag">Luxury</span>
+          <div class="fleet-hover-overlay">
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Mercedes%20Benz." target="_blank" class="fleet-wa-btn"><i class="fab fa-whatsapp"></i> Book Now</a>
+          </div>
+        </div>
+        <div class="fleet-info">
+          <div class="fleet-name">Mercedes-Benz E-Class</div>
+          <div class="fleet-specs">
+            <span class="fleet-spec"><i class="fas fa-user"></i> 4 Seats</span>
+            <span class="fleet-spec"><i class="fas fa-gas-pump"></i> Petrol</span>
+            <span class="fleet-spec"><i class="fas fa-cog"></i> Automatic</span>
+          </div>
+          <div class="fleet-footer">
+            <div>
+              <span class="fleet-price">₹8,000 <small>/ day onwards</small></span>
+            </div>
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Mercedes%20Benz." target="_blank" class="fleet-mini-btn">Book <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="fleet-card anim" data-type="suv">
+        <div class="fleet-img-box">
+          <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80" alt="Toyota Fortuner Hyderabad" class="fleet-img" loading="lazy" />
+          <span class="fleet-tag">Premium SUV</span>
+          <div class="fleet-hover-overlay">
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Toyota%20Fortuner." target="_blank" class="fleet-wa-btn"><i class="fab fa-whatsapp"></i> Book Now</a>
+          </div>
+        </div>
+        <div class="fleet-info">
+          <div class="fleet-name">Toyota Fortuner</div>
+          <div class="fleet-specs">
+            <span class="fleet-spec"><i class="fas fa-user"></i> 7 Seats</span>
+            <span class="fleet-spec"><i class="fas fa-gas-pump"></i> Diesel</span>
+            <span class="fleet-spec"><i class="fas fa-cog"></i> Automatic</span>
+          </div>
+          <div class="fleet-footer">
+            <div>
+              <span class="fleet-price">₹5,000 <small>/ day onwards</small></span>
+            </div>
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Toyota%20Fortuner." target="_blank" class="fleet-mini-btn">Book <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="fleet-card anim" data-type="sedan">
+        <div class="fleet-img-box">
+          <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=700&q=80" alt="Swift Dzire self drive Hyderabad" class="fleet-img" loading="lazy" />
+          <span class="fleet-tag">Budget Pick</span>
+          <div class="fleet-hover-overlay">
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Swift%20Dzire." target="_blank" class="fleet-wa-btn"><i class="fab fa-whatsapp"></i> Book Now</a>
+          </div>
+        </div>
+        <div class="fleet-info">
+          <div class="fleet-name">Maruti Swift Dzire</div>
+          <div class="fleet-specs">
+            <span class="fleet-spec"><i class="fas fa-user"></i> 5 Seats</span>
+            <span class="fleet-spec"><i class="fas fa-gas-pump"></i> CNG/Petrol</span>
+            <span class="fleet-spec"><i class="fas fa-cog"></i> Automatic</span>
+          </div>
+          <div class="fleet-footer">
+            <div>
+              <span class="fleet-price">₹699 <small>/ day onwards</small></span>
+            </div>
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20Swift%20Dzire." target="_blank" class="fleet-mini-btn">Book <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="fleet-card anim" data-type="luxury">
+        <div class="fleet-img-box">
+          <img src="https://images.unsplash.com/photo-1476231682828-37e571bc172f?auto=format&fit=crop&w=700&q=80" alt="BMW 5 Series rental Hyderabad" class="fleet-img" loading="lazy" />
+          <span class="fleet-tag">Executive</span>
+          <div class="fleet-hover-overlay">
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20BMW%205%20Series." target="_blank" class="fleet-wa-btn"><i class="fab fa-whatsapp"></i> Book Now</a>
+          </div>
+        </div>
+        <div class="fleet-info">
+          <div class="fleet-name">BMW 5 Series</div>
+          <div class="fleet-specs">
+            <span class="fleet-spec"><i class="fas fa-user"></i> 4 Seats</span>
+            <span class="fleet-spec"><i class="fas fa-gas-pump"></i> Petrol</span>
+            <span class="fleet-spec"><i class="fas fa-cog"></i> Automatic</span>
+          </div>
+          <div class="fleet-footer">
+            <div>
+              <span class="fleet-price">₹9,500 <small>/ day onwards</small></span>
+            </div>
+            <a href="https://wa.me/919885787799?text=Hi!%20I%20want%20BMW%205%20Series." target="_blank" class="fleet-mini-btn">Book <i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     WHY CHOOSE US
+========================================================= -->
+<section id="why" class="section-pad">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-img-block anim">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" alt="Luxury car interior experience LuxeDrive" class="why-main-img" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=500&q=80" alt="Premium driver service Hyderabad" class="why-sec-img" loading="lazy" />
+        <div class="why-badge">
+          <span class="why-badge-num">5★</span>
+          <span class="why-badge-lbl">Rated<br>Service</span>
+        </div>
+      </div>
+      <div class="anim">
+        <span class="section-eyebrow">Why Choose LuxeDrive</span>
+        <h2 class="section-title">The <span class="accent">Gold Standard</span> in Car Rentals</h2>
+        <div class="gold-line"></div>
+        <p class="section-body">We don't just rent cars — we craft experiences. Every vehicle is immaculately maintained, every chauffeur trained to perfection, and every booking handled with white-glove attention to detail.</p>
+        <div class="why-features">
+          <div class="why-feat">
+            <div class="why-feat-icon"><i class="fas fa-shield-alt"></i></div>
+            <div>
+              <div class="why-feat-title">Fully Insured</div>
+              <div class="why-feat-desc">Comprehensive coverage on all vehicles.</div>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <div class="why-feat-title">24/7 Support</div>
+              <div class="why-feat-desc">Round-the-clock WhatsApp assistance.</div>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon"><i class="fas fa-star"></i></div>
+            <div>
+              <div class="why-feat-title">Verified Drivers</div>
+              <div class="why-feat-desc">Background-checked, trained chauffeurs.</div>
+            </div>
+          </div>
+          <div class="why-feat">
+            <div class="why-feat-icon"><i class="fas fa-tags"></i></div>
+            <div>
+              <div class="why-feat-title">No Hidden Charges</div>
+              <div class="why-feat-desc">Transparent pricing. Always.</div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:32px;">
+          <a href="https://wa.me/919885787799?text=Hi%20LuxeDrive!%20I%20want%20to%20know%20more." target="_blank" class="btn btn-gold">
+            <i class="fab fa-whatsapp"></i> Talk to Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     REVIEWS
+========================================================= -->
+<section id="reviews" class="section-pad">
+  <div class="container">
+    <div class="sec-head center anim">
+      <span class="section-eyebrow">Client Stories</span>
+      <h2 class="section-title">What Our <span class="accent">Guests Say</span></h2>
+      <div class="gold-line"></div>
+    </div>
+    <div class="reviews-grid">
+
+      <div class="review-card anim">
+        <div class="review-quote">"</div>
+        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="review-text">Booked a self-drive for a weekend trip to Srisailam. The car was spotless, fuel-efficient and the WhatsApp booking was the easiest process ever. Will definitely book again!</p>
+        <div class="review-author">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Ravi Kumar" class="review-avatar" loading="lazy" />
+          <div>
+            <div class="review-name">Ravi Kumar</div>
+            <div class="review-role">Software Engineer, Hyderabad</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card anim">
+        <div class="review-quote">"</div>
+        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="review-text">Used LuxeDrive for our wedding — 8 beautifully decorated cars making our day absolutely perfect. The team was professional, on time and so accommodating. Highly recommended!</p>
+        <div class="review-author">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="Priya Sharma" class="review-avatar" loading="lazy" />
+          <div>
+            <div class="review-name">Priya &amp; Arjun Sharma</div>
+            <div class="review-role">Newlyweds, Banjara Hills</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card anim">
+        <div class="review-quote">"</div>
+        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p class="review-text">Our company uses LuxeDrive for all executive pickups and airport transfers. Consistently punctual, polished and professional. The monthly billing option is a great convenience.</p>
+        <div class="review-author">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&q=80" alt="Suresh Reddy" class="review-avatar" loading="lazy" />
+          <div>
+            <div class="review-name">Suresh Reddy</div>
+            <div class="review-role">Operations Head, HITEC City</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     DESTINATIONS
+========================================================= -->
+<section id="areas" class="section-pad">
+  <div class="container">
+    <div class="sec-head center anim">
+      <span class="section-eyebrow">We Serve</span>
+      <h2 class="section-title">Popular <span class="accent">Destinations</span></h2>
+      <div class="gold-line"></div>
+      <p class="section-body">Outstation trips, local city rides and everything in between.</p>
+    </div>
+    <div class="areas-grid">
+      <div class="area-card anim" onclick="bookArea('Hyderabad City')"><div class="area-emoji">🏙️</div><div class="area-name">Hyderabad City</div><div class="area-km">Local Rides</div></div>
+      <div class="area-card anim" onclick="bookArea('Tirupati')"><div class="area-emoji">🛕</div><div class="area-name">Tirupati</div><div class="area-km">~570 km</div></div>
+      <div class="area-card anim" onclick="bookArea('Srisailam')"><div class="area-emoji">⛩️</div><div class="area-name">Srisailam</div><div class="area-km">~230 km</div></div>
+      <div class="area-card anim" onclick="bookArea('Warangal')"><div class="area-emoji">🏰</div><div class="area-name">Warangal</div><div class="area-km">~145 km</div></div>
+      <div class="area-card anim" onclick="bookArea('Vijayawada')"><div class="area-emoji">🌉</div><div class="area-name">Vijayawada</div><div class="area-km">~275 km</div></div>
+      <div class="area-card anim" onclick="bookArea('Nagarjuna Sagar')"><div class="area-emoji">💧</div><div class="area-name">Nagarjuna Sagar</div><div class="area-km">~165 km</div></div>
+      <div class="area-card anim" onclick="bookArea('Bengaluru')"><div class="area-emoji">🌆</div><div class="area-name">Bengaluru</div><div class="area-km">~570 km</div></div>
+      <div class="area-card anim" onclick="bookArea('Visakhapatnam')"><div class="area-emoji">🌊</div><div class="area-name">Visakhapatnam</div><div class="area-km">~620 km</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CTA BAND
+========================================================= -->
+<section id="cta" class="section-pad">
+  <div class="cta-bg-img"></div>
+  <div class="container">
+    <div class="cta-inner anim">
+      <span class="section-eyebrow" style="justify-content:center;">Book Instantly</span>
+      <h2 class="cta-title">Your Premium Ride<br><span class="accent">Awaits You</span></h2>
+      <div class="gold-line" style="margin:20px auto;"></div>
+      <p class="cta-sub">No waiting, no forms. One WhatsApp message and your luxury car is on its way. Available 24/7, 365 days a year.</p>
+      <div class="cta-actions">
+        <a href="https://wa.me/919885787799?text=Hi%20LuxeDrive!%20I%20want%20to%20book%20a%20car." target="_blank" class="btn btn-wa">
+          <i class="fab fa-whatsapp"></i> Book on WhatsApp — 98857 87799
+        </a>
+        <a href="tel:+919885787799" class="btn btn-ghost">
+          <i class="fas fa-phone"></i> Call Us Now
+        </a>
+      </div>
+      <div class="cta-phone-block">
+        <span class="cta-phone-lbl">Available 24 × 7</span>
+        <span class="cta-phone-num">+91 98857 87799</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FAQ
+========================================================= -->
+<section id="faq" class="section-pad">
+  <div class="container">
+    <div class="sec-head center anim">
+      <span class="section-eyebrow">FAQ</span>
+      <h2 class="section-title">Frequently Asked <span class="accent">Questions</span></h2>
+      <div class="gold-line"></div>
+    </div>
+    <div class="faq-grid">
+      <div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Do I need a driving licence for self-drive?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>Yes, a valid Indian driving licence is mandatory. International licences are also accepted for foreign nationals visiting Hyderabad.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">How far in advance should I book?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>We accommodate same-day bookings (subject to availability), but we recommend booking at least 24 hours in advance to guarantee your preferred vehicle.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Are all vehicles insured?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>Yes. Every vehicle in our fleet carries comprehensive insurance. Your safety and peace of mind is our top priority on every trip.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Do you offer airport transfers?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>Yes, 24/7 airport transfers at Rajiv Gandhi International Airport (HYD). We track your flight and ensure on-time pickup for all flights.</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">What payment methods are accepted?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>We accept UPI, NEFT/IMPS, cash, and all major credit/debit cards. Partial advance may be required for luxury vehicle bookings.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Can I cancel or modify my booking?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>Free cancellation up to 12 hours before scheduled pickup. Modifications can be requested anytime via WhatsApp and we'll do our best to accommodate.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Do you serve outside Hyderabad?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>Yes! We cover major outstation routes — Tirupati, Srisailam, Bengaluru, Vijayawada, Vizag and more. Contact us for custom routes and pricing.</p></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">Is fuel included in the rental?<span class="faq-icon"><i class="fas fa-plus"></i></span></div>
+          <div class="faq-a"><p>For chauffeur-driven services, fuel is included. For self-drive, you are responsible for fuel — vehicle provided full, return full.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="ft-brand">
+        <div class="ft-logo-name">LUXEDRIVE</div>
+        <div class="ft-logo-sub">Premium Car Rentals · Hyderabad</div>
+        <p class="ft-desc">Hyderabad's most trusted and elegant car rental service. From self-drive to chauffeur-driven, we deliver premium experiences every time.</p>
+        <div class="ft-socials">
+          <a href="https://wa.me/919885787799" target="_blank" class="ft-social" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="ft-social" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="ft-social" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="ft-social" title="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <div class="ft-col-title">Our Services</div>
+        <ul class="ft-links">
+          <li><a href="https://wa.me/919885787799?text=Self%20Drive%20Car" target="_blank">Self Drive Cars</a></li>
+          <li><a href="https://wa.me/919885787799?text=Corporate%20Travel" target="_blank">Corporate Travel</a></li>
+          <li><a href="https://wa.me/919885787799?text=Wedding%20Car" target="_blank">Wedding Cars</a></li>
+          <li><a href="https://wa.me/919885787799?text=Outstation%20Trip" target="_blank">Outstation Trips</a></li>
+          <li><a href="https://wa.me/919885787799?text=Airport%20Transfer" target="_blank">Airport Transfers</a></li>
+          <li><a href="https://wa.me/919885787799?text=Tour%20Package" target="_blank">Tour Packages</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="ft-col-title">Destinations</div>
+        <ul class="ft-links">
+          <li><a href="https://wa.me/919885787799?text=Trip%20to%20Tirupati" target="_blank">Tirupati</a></li>
+          <li><a href="https://wa.me/919885787799?text=Trip%20to%20Srisailam" target="_blank">Srisailam</a></li>
+          <li><a href="https://wa.me/919885787799?text=Trip%20to%20Warangal" target="_blank">Warangal</a></li>
+          <li><a href="https://wa.me/919885787799?text=Trip%20to%20Vijayawada" target="_blank">Vijayawada</a></li>
+          <li><a href="https://wa.me/919885787799?text=Trip%20to%20Bengaluru" target="_blank">Bengaluru</a></li>
+          <li><a href="https://wa.me/919885787799?text=Trip%20to%20Visakhapatnam" target="_blank">Visakhapatnam</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="ft-col-title">Contact Us</div>
+        <div class="ft-contact-item">
+          <div class="ft-ci-icon"><i class="fab fa-whatsapp"></i></div>
+          <div class="ft-ci-text">
+            <strong>WhatsApp / Call</strong>
+            <a href="https://wa.me/919885787799" style="color:var(--accent)">+91 98857 87799</a>
+          </div>
+        </div>
+        <div class="ft-contact-item">
+          <div class="ft-ci-icon"><i class="fas fa-location-dot"></i></div>
+          <div class="ft-ci-text">
+            <strong>Service Area</strong>
+            Hyderabad, Telangana &amp; All Outstation Routes
+          </div>
+        </div>
+        <div class="ft-contact-item">
+          <div class="ft-ci-icon"><i class="fas fa-clock"></i></div>
+          <div class="ft-ci-text">
+            <strong>Availability</strong>
+            24 × 7, 365 Days a Year
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p class="ft-copy">© 2026 <a href="#">LuxeDrive</a>. All rights reserved. Premium Car Rentals in Hyderabad.</p>
+      <div class="ft-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- =========================================================
+     FLOATING BUTTONS
+========================================================= -->
+<div class="float-wa">
+  <div class="float-wa-tip">💬 Chat &amp; Book Instantly!</div>
+  <a href="https://wa.me/919885787799?text=Hi%20LuxeDrive!%20I%20want%20to%20book%20a%20car." target="_blank" class="float-wa-btn" title="Book on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+<script>
+  /* --- Loader --- */
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.getElementById('loader').classList.add('out');
+      document.getElementById('heroBg').classList.add('ready');
+    }, 2100);
+  });
+
+  /* --- Navbar scroll --- */
+  const navEl = document.getElementById('nav');
+  const backTopEl = document.getElementById('backTop');
+  window.addEventListener('scroll', () => {
+    navEl.classList.toggle('stuck', window.scrollY > 50);
+    backTopEl.classList.toggle('show', window.scrollY > 400);
+  }, { passive: true });
+
+  /* --- Dark / Light Theme Toggle --- */
+  function setTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    localStorage.setItem('luxedrive-theme', t);
+    const icon = document.getElementById('themeIcon');
+    if (icon) {
+      icon.className = t === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+    }
+  }
+
+  function toggleTheme() {
+    const cur = document.documentElement.getAttribute('data-theme');
+    setTheme(cur === 'dark' ? 'light' : 'dark');
+  }
+
+  // Set correct icon on load
+  (function(){
+    const t = document.documentElement.getAttribute('data-theme');
+    const icon = document.getElementById('themeIcon');
+    if (icon) icon.className = t === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+  })();
+
+  /* --- Mobile Drawer --- */
+  function toggleDrawer() {
+    const d = document.getElementById('drawer');
+    const o = document.getElementById('drawerOverlay');
+    const h = document.getElementById('ham');
+    d.classList.toggle('open');
+    o.classList.toggle('show');
+    h.classList.toggle('open');
+  }
+  function closeDrawer() {
+    document.getElementById('drawer').classList.remove('open');
+    document.getElementById('drawerOverlay').classList.remove('show');
+    document.getElementById('ham').classList.remove('open');
+  }
+
+  /* --- Fleet Filter --- */
+  function filterFleet(type, btn) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    document.querySelectorAll('.fleet-card').forEach(c => {
+      const show = type === 'all' || c.dataset.type === type;
+      c.style.display = show ? '' : 'none';
+    });
+  }
+
+  /* --- FAQ Toggle --- */
+  function toggleFaq(el) {
+    const item = el.parentElement;
+    const wasOpen = item.classList.contains('active');
+    document.querySelectorAll('.faq-item').forEach(f => f.classList.remove('active'));
+    if (!wasOpen) item.classList.add('active');
+  }
+
+  /* --- Area Booking --- */
+  function bookArea(area) {
+    window.open(`https://wa.me/919885787799?text=${encodeURIComponent('Hi LuxeDrive! I want to book a car trip to ' + area + '.')}`, '_blank');
+  }
+
+  /* --- Scroll Animations --- */
+  const animObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('in'), i * 80);
+        animObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.10 });
+
+  document.querySelectorAll('.anim').forEach(el => animObserver.observe(el));
+
+  /* --- Smooth anchor links --- */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    });
+  });
+</script>
+</body>
+</html>
